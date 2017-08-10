@@ -7,24 +7,14 @@ body {
     margin: 75px;
 }
 
-.rowImg {
+.container {
     display: flex;
-    height: 400px;
+    flex-wrap: wrap;
 }
 
-.rowText {
-    display: flex;
-    justify-content: center;
-}
-
-.img {
-    margin: 10px;
-    flex: 1;
-}
-
-.text {
-    margin: 10px;
-    flex: 1;
+.content {
+    width: 25%;
+    margin: 0;
     text-align: center;
 }
 
