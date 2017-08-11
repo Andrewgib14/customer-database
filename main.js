@@ -10,7 +10,7 @@ for (let i = 0; i < customers.results.length; i++) {
         <p>${customers.results[i].location.street}</p>
         <p>${customers.results[i].location.city},${customers.results[i].location.state} ${customers.results[i].location.zip}</p>
         <p>${customers.results[i].phone}</p>
-        <p class= "ss">${customers.results[i].value}</p>
+        <p class= "ss">${customers.results[i].id.value}</p>
     </div>`;
     container.innerHTML += content;
 };
